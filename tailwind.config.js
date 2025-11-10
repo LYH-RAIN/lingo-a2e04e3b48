@@ -6,19 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      animation: {
-        'fade-in': 'fadeIn 1.5s ease-in-out',
-        'float': 'float 3s ease-in-out infinite',
-      },
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
-        },
-        float: {
-          '0%, 100%': { transform: 'translateY(0)' },
-          '50%': { transform: 'translateY(-10px)' },
-        }
+      colors: {
+        background: '#ffc0cb', // 粉色背景
       }
     },
   },
